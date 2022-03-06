@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    padding: 150px 0;
+    background-color: #fff4ef;
+    clip-path: ellipse(105% 100% at 23.6% 100%);
+    display: block;
+    box-sizing: border-box;
+    height: 450px;
+}
+.footer-logo {
+    margin-top: -20px;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+    color: #7854f7;
+    padding-left: 10px;
+}
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border: solid 1px #F39C12;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.footer-col .social-links i {
+    color: #F39C12;
+}
+.footer-col .social-links i:hover {
+    color: #e67e22; 
+}
+.footer-col .social-links a:hover {
+    transform: translateY(-0.5rem);
+}
+.social-links {
+    margin-top: 20px;
+}
+.first-p, .second-p {
+    color: var(--secondary-color);
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box {
+    background-color: #fff;
+    border: solid 2px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form-box input {
+    font-size: 18px;
+    color: #000;
+    padding: 5px;
+    border: none;
+    outline: none; 
+}
+.form-box button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #7854f7;
+    transition: 0.3s;
+    color: var(--light-color);
+}
+.form-box button:hover {
+    background-color: #543bad;
+}
+

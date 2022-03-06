@@ -1,0 +1,77 @@
+#web-features {
+    background-color: #fbe9e7;
+}
+.web__right__item img {
+    width: 800px;
+    height: 800px;
+    object-fit: contain;
+}
+.web__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+.web__left__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.web-content {
+    margin-left: 20px;
+}
+.web-content p {
+    font-size: 1.8rem;
+    opacity: 0.9;
+    color: var(--secondary-color);
+}
+.web-content h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color: var(--dark-color);
+}
+.web-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    column-gap: 40px;
+}
+.web-box {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+.web-box i {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    color: var(--light-color);
+}
+.web-box h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 1.5rem;
+}
+.web-box p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+i.box-ux {
+    background-color:#00b894;
+}
+i.box-react {
+    background-color: #00cec9;
+}
