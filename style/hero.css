@@ -1,17 +1,15 @@
 #hero {
-    min-height: 88vh;
+    min-height: 90vh;
 }
 .hero__wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: -50px;
 }
 .hero__left__item {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
 }
 .hero__right__item img {
@@ -29,20 +27,15 @@
 .hero__left__item p {
     color: var(--secondary-color);
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 .left--item__demo {
     display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
-    justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 .hero__btn {
     padding: 1.5rem 2.5rem;
     font-size: 1.8rem;
     margin: 0 1rem;
-}
-.hero__right__item {
-    opacity: 0.9rem;
 }

@@ -1,9 +1,8 @@
 #signup {
-    min-height: 88vh;
+    min-height: 80vh;
 }
 .signup__wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;   
 }
@@ -16,7 +15,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    margin-right: -300px;
+    margin: 0 auto;
 }
 .signup__left__item h2 {
     font-size: 4.5rem;
@@ -28,7 +27,7 @@
 .signup__left__item p {
     color: var(--secondary-color);
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 .left--item__signup {
     display: flex;

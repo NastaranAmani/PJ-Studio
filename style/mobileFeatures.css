@@ -20,10 +20,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    margin-left: -250px;
-}
-.mobile-content {
-    margin-right: 100px;
+    margin-right: auto;
 }
 .mobile-content p {
     font-size: 1.8rem;
@@ -43,8 +40,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    column-gap: 40px;
-    margin-left: -20px;
+    margin-left: -2rem;
 }
 .mobile-box {
     padding: 2.5rem;

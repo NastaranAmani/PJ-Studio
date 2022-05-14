@@ -1,59 +1,45 @@
 .offers__wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 .offer-img {
     width: 70rem;
     height: 70rem;   
-    text-align: left;
 }
 .offers-title {
     font-size: 4.5rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: -60px;
+    margin-bottom: -4rem;
+}
+.offers-cms, .offers-payment, .offers-store {
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+    transition: all 0.3s ease;
 }
 .offers-cms {
-    margin: 20px;
-    padding: 30px;
-    border-radius: 10px;
-    border-left: solid 5px #f1c40f;
-    box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
-    transition: all 0.3s ease;
+    border-left: solid 0.5rem #f1c40f;
 }
 .offers-payment {
-    margin-right: 10px;
-    margin: 20px;
-    padding: 30px;
-    border-radius: 10px;
-    border-left: solid 5px #e67e22;
-    box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
-    transition: all 0.3s ease;
+    border-left: solid 0.5rem #e67e22;
 }
 .offers-store {
-    margin: 20px;
-    padding: 30px;
-    border-radius: 10px;
-    border-left: solid 5px #c0392b;
-    box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
-    transition: all 0.3s ease;
+    border-left: solid 0.5rem #c0392b;
+}
+.offers-cms:hover, .offers-payment:hover, .offers-store:hover {
+    margin-left: 1rem;
+    transition: 0.8s;
 }
 .offers-cms:hover {
-    margin-left: 10px;
-    transition: 0.8s;
-    background-color: #fff4ef;
-    
+    background-color: #fff4ef; 
 }
 .offers-payment:hover {
-    margin-left: 10px;
-    transition: 0.8s;
     background-color: #fff4ef;
 }
 .offers-store:hover {
-    margin-left: 10px;
-    transition: 0.8s;
     background-color: #fff4ef;
 }
 
