@@ -38,16 +38,10 @@
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
-.left--item__signup {
-    display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
-    justify-content: center;
-    align-items: center;
-}
 .signup__btn {
     padding: 1.5rem 2.5rem;
     font-size: 1.6rem;
+    margin-top: 1rem;
 }
 
 
@@ -67,9 +61,10 @@
   @media (max-width: 768px) {
     .signup__left__item {
         padding: 3rem 1rem;
+        align-items: center;
+        justify-content: center;
     }
     .signup__left__item h2 {
-        align-items: center;
         font-size: 3rem;
     }
     .signup__left__item p {
@@ -81,13 +76,21 @@
     }
     .signup__right__item img {
         width: 30rem;
-        height: 30rem; 
+        height: 30rem;
         object-fit: cover;
     }
     .signup__btn {
         font-size: 1.3rem;
     }
   }
+  @media (max-width: 480px) {
+    .signup__right__item img {
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
+    }
+  }
+
 
 
 
