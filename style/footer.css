@@ -1,4 +1,6 @@
 .row {
+    width: min(100%, 160rem);
+    margin: auto;
     padding: 4rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); 
@@ -15,6 +17,9 @@
 .footer-col h4 {
     font-size: 1.8rem;
     margin-bottom: 3rem;
+}
+.footer-col p {
+    color: var(--secondary-color);
 }
 .footer-col img {
     width: 14rem;
