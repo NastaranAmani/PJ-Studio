@@ -36,11 +36,9 @@ a {
     text-decoration: none;
 }
 .container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: min(90%, 160rem);
 }
 .btn {
     font-family: inherit;
