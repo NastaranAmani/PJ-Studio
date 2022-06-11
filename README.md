@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="img/pj" alt="Logo" width="180">
+    <img src="./img/pj logo.png" alt="Logo" width="180">
 
   <h3 align="center">.: PJ Online Studio :.</h3>
 
@@ -25,8 +25,10 @@
 ## About The Project
 
 This project is redesigned from a <a href="https://dribbble.com/shots/17262643-Design-Development-Company-Landing-Page" target="_blank">dribbble</a> shot.
-
-<img src="./img/PJ-Studio.png" alt="" width="700">
+<br />
+<div align="center">
+    <img src="./img/PJ-Studio.png" alt="" width="700">
+</div>
 
 PJ Studio is an online studio that hepls you organize your income and expenses efficiently.
 
@@ -44,7 +46,6 @@ Of course, It is not the best platform yet, but we are adding new features every
 
 - [HTML5](https://html.spec.whatwg.org/multipage/)
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
-- [JavaScript](https://www.javascript.com/)
 
 <!-- ROADMAP -->
 
