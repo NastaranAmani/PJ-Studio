@@ -10,13 +10,13 @@
   <p align="center">
     Helps you organize your income and expenses!
      <br />
-    <a href="https://nastaranamani.github.io/PJStudio-LandingPage/" target="_blank"><strong>View Live</strong></a>
+    <a href="https://nastaranamani.github.io/PJ-Studio/" target="_blank"><strong>View Live</strong></a>
        <br />
        <br />
     ·
-    <a href="https://github.com/NastaranAmani/PJStudio-LandingPage/issues">Report Bug</a>
+    <a href="https://github.com/NastaranAmani/PJ-Studio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/NastaranAmani/PJStudio-LandingPage/issues">Request Feature</a>
+    <a href="https://github.com/NastaranAmani/PJ-Studio/issues">Request Feature</a>
   </p>
 </div>
 
